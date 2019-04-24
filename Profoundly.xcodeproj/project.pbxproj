@@ -14,6 +14,17 @@
 		7713202E226F9BD700AD1571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7713202C226F9BD700AD1571 /* LaunchScreen.storyboard */; };
 		77132039226F9BD700AD1571 /* ProfoundlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77132038226F9BD700AD1571 /* ProfoundlyTests.swift */; };
 		77132044226F9BD700AD1571 /* ProfoundlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77132043226F9BD700AD1571 /* ProfoundlyUITests.swift */; };
+		77132052226F9CAA00AD1571 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77132051226F9CAA00AD1571 /* FeedViewController.swift */; };
+		77132054226F9CBA00AD1571 /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77132053226F9CBA00AD1571 /* Feed.storyboard */; };
+		77132056226F9CC600AD1571 /* Friends.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77132055226F9CC600AD1571 /* Friends.storyboard */; };
+		77132058226F9CD400AD1571 /* Inbox.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77132057226F9CD400AD1571 /* Inbox.storyboard */; };
+		7713205A226F9CEA00AD1571 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77132059226F9CEA00AD1571 /* FriendsViewController.swift */; };
+		7713205C226F9CF500AD1571 /* InboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7713205B226F9CF500AD1571 /* InboxViewController.swift */; };
+		7713205E226F9DCE00AD1571 /* TabControllerAssemblyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7713205D226F9DCE00AD1571 /* TabControllerAssemblyTest.swift */; };
+		77132060226FA2C000AD1571 /* EmptyTabController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7713205F226FA2C000AD1571 /* EmptyTabController.storyboard */; };
+		77132062226FA30600AD1571 /* EmptyTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77132061226FA30600AD1571 /* EmptyTabViewController.swift */; };
+		77132064226FA34000AD1571 /* EmptyTabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77132063226FA34000AD1571 /* EmptyTabTests.swift */; };
+		77132066226FA9CA00AD1571 /* FeedsViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77132065226FA9CA00AD1571 /* FeedsViewControllerTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,17 @@
 		7713203F226F9BD700AD1571 /* ProfoundlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProfoundlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77132043226F9BD700AD1571 /* ProfoundlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfoundlyUITests.swift; sourceTree = "<group>"; };
 		77132045226F9BD700AD1571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77132051226F9CAA00AD1571 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		77132053226F9CBA00AD1571 /* Feed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Feed.storyboard; sourceTree = "<group>"; };
+		77132055226F9CC600AD1571 /* Friends.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Friends.storyboard; sourceTree = "<group>"; };
+		77132057226F9CD400AD1571 /* Inbox.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Inbox.storyboard; sourceTree = "<group>"; };
+		77132059226F9CEA00AD1571 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		7713205B226F9CF500AD1571 /* InboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxViewController.swift; sourceTree = "<group>"; };
+		7713205D226F9DCE00AD1571 /* TabControllerAssemblyTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabControllerAssemblyTest.swift; sourceTree = "<group>"; };
+		7713205F226FA2C000AD1571 /* EmptyTabController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EmptyTabController.storyboard; sourceTree = "<group>"; };
+		77132061226FA30600AD1571 /* EmptyTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyTabViewController.swift; sourceTree = "<group>"; };
+		77132063226FA34000AD1571 /* EmptyTabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyTabTests.swift; sourceTree = "<group>"; };
+		77132065226FA9CA00AD1571 /* FeedsViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedsViewControllerTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +121,14 @@
 			children = (
 				77132023226F9BD500AD1571 /* AppDelegate.swift */,
 				77132025226F9BD500AD1571 /* ViewController.swift */,
+				77132051226F9CAA00AD1571 /* FeedViewController.swift */,
+				77132059226F9CEA00AD1571 /* FriendsViewController.swift */,
+				7713205B226F9CF500AD1571 /* InboxViewController.swift */,
+				77132061226FA30600AD1571 /* EmptyTabViewController.swift */,
+				7713205F226FA2C000AD1571 /* EmptyTabController.storyboard */,
+				77132053226F9CBA00AD1571 /* Feed.storyboard */,
+				77132055226F9CC600AD1571 /* Friends.storyboard */,
+				77132057226F9CD400AD1571 /* Inbox.storyboard */,
 				77132027226F9BD500AD1571 /* Main.storyboard */,
 				7713202A226F9BD600AD1571 /* Assets.xcassets */,
 				7713202C226F9BD700AD1571 /* LaunchScreen.storyboard */,
@@ -111,6 +141,9 @@
 			isa = PBXGroup;
 			children = (
 				77132038226F9BD700AD1571 /* ProfoundlyTests.swift */,
+				7713205D226F9DCE00AD1571 /* TabControllerAssemblyTest.swift */,
+				77132063226FA34000AD1571 /* EmptyTabTests.swift */,
+				77132065226FA9CA00AD1571 /* FeedsViewControllerTest.swift */,
 				7713203A226F9BD700AD1571 /* Info.plist */,
 			);
 			path = ProfoundlyTests;
@@ -230,8 +263,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7713202E226F9BD700AD1571 /* LaunchScreen.storyboard in Resources */,
+				77132056226F9CC600AD1571 /* Friends.storyboard in Resources */,
 				7713202B226F9BD600AD1571 /* Assets.xcassets in Resources */,
+				77132054226F9CBA00AD1571 /* Feed.storyboard in Resources */,
 				77132029226F9BD500AD1571 /* Main.storyboard in Resources */,
+				77132060226FA2C000AD1571 /* EmptyTabController.storyboard in Resources */,
+				77132058226F9CD400AD1571 /* Inbox.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +293,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77132062226FA30600AD1571 /* EmptyTabViewController.swift in Sources */,
+				7713205C226F9CF500AD1571 /* InboxViewController.swift in Sources */,
+				7713205A226F9CEA00AD1571 /* FriendsViewController.swift in Sources */,
 				77132026226F9BD500AD1571 /* ViewController.swift in Sources */,
+				77132052226F9CAA00AD1571 /* FeedViewController.swift in Sources */,
 				77132024226F9BD500AD1571 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +306,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77132064226FA34000AD1571 /* EmptyTabTests.swift in Sources */,
 				77132039226F9BD700AD1571 /* ProfoundlyTests.swift in Sources */,
+				77132066226FA9CA00AD1571 /* FeedsViewControllerTest.swift in Sources */,
+				7713205E226F9DCE00AD1571 /* TabControllerAssemblyTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
